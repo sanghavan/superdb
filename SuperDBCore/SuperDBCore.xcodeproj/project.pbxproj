@@ -1135,7 +1135,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = Super;
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "Super Debugger";
 			};
 			buildConfigurationList = CDF1AA9C15A8D7760038EAB7 /* Build configuration list for PBXProject "SuperDBCore" */;
@@ -1322,6 +1322,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1377,7 +1378,7 @@
 		CDF1AAD115A8D9C30038EAB7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SYSTEM_APPS_DIR)/Xcode45-DP1.app/Contents/Developer/Library/Frameworks\"",
@@ -1396,7 +1397,7 @@
 		CDF1AAD215A8D9C30038EAB7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
